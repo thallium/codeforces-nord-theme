@@ -520,6 +520,6 @@
     }
     /*remove comment table border*/
     .comment-table {
-        border: none;
+        border: none !important;
     }
 }

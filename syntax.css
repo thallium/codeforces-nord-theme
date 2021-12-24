@@ -7,7 +7,7 @@
     }
     
     .prettyprint .pln {
-        color: #cccccc;
+        color: #cccccc !important;
     }
     
     /* Specify class=linenums on a pre to get line numbering */
@@ -27,8 +27,8 @@
     li.L7,
     li.L8,
     li.L9 {
-        padding-left: 1em;
-        background-color: #2d2d2d;
+        padding-left: 1em !important;
+        background-color: #2d2d2d !important;
     }
     
     @media screen {
@@ -36,85 +36,85 @@
         /* string content */
     
         .prettyprint .str {
-        color: #99cc99;
+        color: #99cc99 !important;
         }
     
         /* keyword */
     
         .prettyprint .kwd {
-        color: #cc99cc;
+        color: #cc99cc !important;
         }
     
         /* comment */
     
         .prettyprint .com {
-        color: #999999;
+        color: #999999 !important;
         }
     
         /* type name */
     
         .prettyprint .typ {
-        color: #6699cc;
+        color: #6699cc !important;
         }
     
         /* literal value */
     
         .prettyprint .lit {
-        color: #f99157;
+        color: #f99157 !important;
         }
     
         /* punctuation */
     
         .prettyprint .pun {
-        color: #cccccc;
+        color: #cccccc !important;
         }
     
         /* lisp open bracket */
     
         .prettyprint .opn {
-        color: #cccccc;
+        color: #cccccc !important;
         }
     
         /* lisp close bracket */
     
         .prettyprint .clo {
-        color: #cccccc;
+        color: #cccccc !important;
         }
     
         /* markup tag name */
     
         .prettyprint .tag {
-        color: #f2777a;
+        color: #f2777a !important;
         }
     
         /* markup attribute name */
     
         .prettyprint .atn {
-        color: #f99157;
+        color: #f99157 !important;
         }
     
         /* markup attribute value */
     
         .prettyprint .atv {
-        color: #66cccc;
+        color: #66cccc !important;
         }
     
         /* declaration */
     
         .prettyprint .dec {
-        color: #f99157;
+        color: #f99157 !important;
         }
     
         /* variable name */
     
         .prettyprint .var {
-        color: #f2777a;
+        color: #f2777a !important;
         }
     
         /* function name */
     
         .prettyprint .fun {
-        color: #6699cc;
+        color: #6699cc !important;
         }
     }
 }

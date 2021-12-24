@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
     /*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
     .prettyprint {
-        background: #2d2d2d;
+        background: #2e3440;
         font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
         border: 0 !important;
     }
@@ -28,7 +28,7 @@
     li.L8,
     li.L9 {
         padding-left: 1em !important;
-        background-color: #2d2d2d !important;
+        background-color: #2e3440 !important;
     }
     
     @media screen {

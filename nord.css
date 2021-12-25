@@ -151,14 +151,14 @@
     }
 
     .problems tr.accepted-problem td.act {
-        background-color: #b5fd95 !important;
+        background-color: var(--nord-green) !important;
     }
     .problems tr.rejected-problem td.id {
-        border-left-color: #ffabab !important;
+        border-left-color: var(--nord-red) !important;
     }
 
     .problems tr.accepted-problem td.id {
-        border-left-color: #b5fd95 !important;
+        border-left-color: var(--nord-green) !important;
     }
 
     div.ttypography .MathJax {

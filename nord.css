@@ -147,7 +147,7 @@
     /* submissions page and contest front page */
 
     .problems tr.rejected-problem td.act {
-        background-color: #ffabab !important;
+        background-color: var(--nord-red) !important;
     }
 
     .problems tr.accepted-problem td.act {
@@ -272,7 +272,7 @@
 
     /* all visited anchor elements  */
     a:visited:not(.rated-user) {
-        color: var(--nord-dark-blue) !important;
+        color: var(--nord-purple) !important;
     }
 
     .info /* below the blog headings */,

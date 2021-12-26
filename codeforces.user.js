@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Codeforces Nord theme
-// @version      1.0.2
+// @version      1.0.3
 // @description  Nord color theme for codeforces
 // @author       Thallium54
 // @match        https://codeforces.com/*

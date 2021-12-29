@@ -522,4 +522,8 @@
     .comment-table {
         border: none !important;
     }
+    /*color of copy button*/
+    #program-source-text-copy {
+        color: var(--nord-light-blue);
+    }
 }

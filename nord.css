@@ -524,6 +524,6 @@
     }
     /*color of copy button*/
     #program-source-text-copy {
-        color: var(--nord-light-blue);
+        color: var(--nord-light-blue) !important;
     }
 }

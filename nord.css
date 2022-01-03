@@ -35,12 +35,13 @@
     }
     .search,
     .ac_input,
-    input[name$="Difficulty"],
-    input[type="text"],
+    input,
+    /* input[name$="Difficulty"], */
+    /* input[type="text"],        */
     #title,
     #comment {
-        background-color: var(--nord-black1) !important;
-        border-color: var(--nord-black1) !important;
+        background-color: var(--nord-black3) !important;
+        border-color: var(--nord-black3) !important;
         color: var(--nord-white1) !important;
     }
     td.dark,
@@ -526,4 +527,18 @@
     #program-source-text-copy {
         color: var(--nord-light-blue) !important;
     }
+    /*catalog icon color*/
+    /* ._catalogBlogEntry ._name i[class^="icon-"] { */
+    i {
+        color: var(--nord-white1) !important;
+    }
+    /* catalog entry text */
+    ._catalogBlogEntry > ._name {
+        color: var(--nord-white1) !important;
+    }
+    /* catalog folder icon */
+    /* ._name i[class^="icon-"] {                 */
+    /*     color:  var(--nord-black4) !important; */
+    /* }                                          */
+
 }

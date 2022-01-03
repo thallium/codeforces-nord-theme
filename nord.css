@@ -528,13 +528,16 @@
         color: var(--nord-light-blue) !important;
     }
     /*catalog icon color*/
-    /* ._catalogBlogEntry ._name i[class^="icon-"] { */
+    ._catalogBlogEntry ._name i[class^="icon-"],
     i {
         color: var(--nord-white1) !important;
     }
     /* catalog entry text */
     ._catalogBlogEntry > ._name {
         color: var(--nord-white1) !important;
+    }
+    ._name small {
+        color:  var(--nord-black4) !important;
     }
     /* catalog folder icon */
     /* ._name i[class^="icon-"] {                 */

@@ -543,5 +543,11 @@
     /* ._name i[class^="icon-"] {                 */
     /*     color:  var(--nord-black4) !important; */
     /* }                                          */
-
+    /* background color for example test cases */
+    .test-example-line-odd {
+        background-color: var(--nord-black1) !important;
+    }
+    .test-example-line-even {
+        background-color: var(--nord-black2) !important;
+    }
 }
